@@ -1,0 +1,75 @@
+#contact{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(90deg, #2ebf91, rgba(131,96,195,0.7570378493194152) 100%),url('/codeimg/photo-1547658719-da2b51169166.jfif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#contact main div{
+    height: auto;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.349);
+    padding: 20px;
+    padding-top: 35px;
+   
+}
+#contact main div input,#contact main div textarea{
+    width: 100%;
+    padding: 9px;
+    border: none;
+}
+#contact main div label,#contact main div h5{
+    padding: 6px;
+    color: #fff;
+    font-weight: 900;
+ 
+}
+#contact main div label sup{
+    color: red;
+}
+.btncontact{
+    border-radius: 50% 10px !important;
+    padding: 10px;
+}
+.btncontact:hover{
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+}
+#contact main div i{
+    font-size: 20px !important;
+    padding: 1px !important;
+}
+
+#footer{
+    height: 40px;
+    margin: 0 !important;
+    padding: 0;
+   
+}
+span{
+	font-size: 50px;
+}
+
+#contact article{
+    border: 1px solid snow;
+    margin: 20px 0px;
+    border-radius: 0px 0px 20px 20px;
+} 
+
+
+.add{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    margin: 0 auto;
+}

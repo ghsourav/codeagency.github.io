@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('../codefonts/fontawesome/css/all.css');
+
+
+
+
+
+
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+    a{text-decoration: none;}
+
+    li{list-style: none;}
+
+.display-5{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.navbar-brand{
+    background: url(../codeimg/CA.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:3.125rem;
+    width: 3.75rem;
+}
+.navbar{
+    
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: auto;
+    box-shadow: 1.5625rem;
+    width: 100% !important;
+}
+.navbar ul li a{
+    color: #fff !important;
+}
+
+@media only screen and (max-width:986px){
+    .navbar-collapse{
+        background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+    
+}
+
+@media only screen and (max-width:986px){
+    
+    
+    .navbar-collapse ul li a{
+        border: 1px solid rgba(0, 0, 0, 0.199);
+    }
+}
+#hero{
+    /*max-height: 50rem;*/
+    height: auto;
+    width: 100%;
+    
+    position: relative;
+}
+.jumbotron{
+    height: 90%;
+    background: linear-gradient(90deg, rgba(90,142,171,0.4433123591233369) 52%, rgba(3, 136, 224, 0.651) 100%),url('../codeimg/business-3560917_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: ghostwhite;
+   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 90%);
+    
+}
+.fas,.fab{
+    font-size: 50px;
+}
+#servicesBlock{
+    padding: 1.25rem;
+    height: auto;
+    width: 100%;
+}
+#servicesBlock header{
+    text-align: center;
+    padding: 0px 0px 0.9375rem 0px;
+}
+.service:hover,.port2:hover,#contact article:hover{
+    color: ghostwhite !important;
+    transition: 1s;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#about{
+    
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 2.5rem;
+
+}
+.about1,.about2{
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    
+}
+.about1 h3{
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.about1 p{
+    color: #5a5a5a;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.rs1btn{
+    padding: 30px;
+   
+
+}
+.rs1btn:hover{
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    transform: 2s;
+
+}
+.about2 img {
+    padding: 1.875rem 0rem 0rem 4.875rem;
+    border-radius: 47% 0% 56% 0%;
+    box-shadow: 0.625rem 0.625rem #4D9DA4;
+    width: 18rem;
+    height: 15rem;
+}
+
+#portfolio{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+#portfolio article header,#contact header,#test header{
+    text-align: center;
+    padding-top: 20px;
+}
+#portfolio article header h1,#contact header h3,#test article header h1{
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+   
+    padding: 15px;
+    
+}
+.port{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+#portfolio{
+    background: linear-gradient(90deg, rgba(46,191,145,0.2920518549216562) 49%, rgba(131,96,195,0.7570378493194152) 100%),url('../codeimg/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-a{
+    background: skyblue !important;
+    opacity: 0.7;
+    height: 12.5rem;
+    width: 100%;
+   
+}
+.btn{
+    margin-top: 10px !important;
+}
+#testimonial{
+    width: 100%;
+    height: 31.25rem;
+}
+
+.port2{
+    border-radius: 90px 40% 60% 10px;
+}
+#footer{
+    height: 40px;
+    margin: 0 !important;
+    padding: 0;
+   
+}
