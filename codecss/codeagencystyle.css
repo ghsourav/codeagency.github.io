@@ -232,3 +232,7 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
   .Pricing hr {
     margin: 1.5rem 0;
   }
+  .nav-item:active{
+    background: linear-gradient(90deg, #2ebf91bd, #8360c3dc 100%),url('../codeimg/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg');
+    background-size: cover;
+  }
