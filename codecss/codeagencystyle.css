@@ -41,7 +41,7 @@
     background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: auto;
-    box-shadow: 1.5625rem;
+    box-shadow: 15px 15px 15px;
     width: 100% !important;
 }
 .navbar ul li a{
@@ -94,7 +94,7 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
     text-align: center;
     padding: 0px 0px 0.9375rem 0px;
 }
-.service:hover,.port2:hover,#contact article:hover{
+.service:hover,.port2:hover,#contact article:hover,.card:hover{
     color: ghostwhite !important;
     transition: 1s;
     background: #8360c3;  /* fallback for old browsers */
@@ -166,6 +166,10 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
     padding: 15px;
     
 }
+#test{
+    padding: 1.5rem 0.9rem;
+    height: auto !important;
+}
 .port{
     width: 100%;
     height: auto;
@@ -204,3 +208,27 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
     padding: 0;
    
 }
+.Pricing{
+    height: 50vh;
+    border-radius: 9% !important;
+   
+}
+.Pricing:hover{
+    background: linear-gradient(90deg, #2ebf91bd, #8360c3dc 100%),url('../codeimg/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg');
+    background-size: cover; 
+    color: #fff;
+    transition: 2s;
+}
+
+.Pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  .Pricing hr {
+    margin: 1.5rem 0;
+  }
