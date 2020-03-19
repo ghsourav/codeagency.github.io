@@ -17,21 +17,12 @@ function clock() {
 clock();
 
 
+let preloader = document.getElementById('loader');
 
+function loader(){
+    preloader.style.display='none';
+}
 
-
-
-
-
-
-
-
-
-$(".jumbotron").css({ height: $(window).height() + "px" });
-
-$(window).on("resize", function() {
-  $(".jumbotron").css({ height: $(window).height() + "px" });
-});
 
 
 

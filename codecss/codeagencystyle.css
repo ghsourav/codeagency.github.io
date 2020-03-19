@@ -236,3 +236,15 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
     background: linear-gradient(90deg, #2ebf91bd, #8360c3dc 100%),url('../codeimg/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg');
     background-size: cover;
   }
+  #loader{
+    background-attachment: fixed;
+
+    background: url("../codeimg/Namaste.jfif") no-repeat center ;
+    width: 100%;
+    height: 100vh;
+}
+  .jumbotron{
+      height: 700px;
+  }
+
+  
