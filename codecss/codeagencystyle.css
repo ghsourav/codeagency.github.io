@@ -242,6 +242,7 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
     background: url("../codeimg/Namaste.jfif") no-repeat center ;
     width: 100%;
     height: 100vh;
+    
 }
   .jumbotron{
       height: 700px;
