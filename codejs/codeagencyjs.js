@@ -21,6 +21,7 @@ let preloader = document.getElementById('loader');
 
 function loader(){
     preloader.style.display='none';
+    $("#navbar").addClass("fixed-top");
 }
 
 
